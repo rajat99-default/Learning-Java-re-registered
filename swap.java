@@ -14,6 +14,7 @@ public class swap {
         // int B = A;
         System.out.println("\nThis is Number B = "+A);
         o.nextLine();
+        o.close();
 
     }
 }

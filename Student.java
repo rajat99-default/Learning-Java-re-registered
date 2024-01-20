@@ -6,6 +6,7 @@ public class Student {
         a = obj.nextInt();
         b = obj.nextInt();
         System.out.println("Sum is = "+(a+b));
+        obj.close();
         
         
     }

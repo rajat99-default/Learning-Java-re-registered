@@ -11,5 +11,6 @@ public class test
         String name = o.nextLine();
         System.out.print("This is your name = "+name);
         o.nextLine();
+        o.close();
     }
 }
