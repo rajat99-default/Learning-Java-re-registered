@@ -12,13 +12,13 @@ public class Electricity_Bill_Calculator
         {
             System.out.print("This is the total bill = " + u*3);    
         }
-        if (u>50 && u<100) {
+        else if (u>50 && u<100) {
             System.out.print("This is your total bill = "+ u*4);
         }
-        if (u>100 && u<250) {
+        else if (u>100 && u<250) {
             System.out.print("This is your total bill = "+ u*5);
         }
-        if (u>250) {
+        else if (u>250) {
             System.out.print("This is your total bill = "+ u*6);
         }
         o.close();
