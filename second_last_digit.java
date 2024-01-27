@@ -10,5 +10,6 @@ public class second_last_digit
         System.out.print("\nthis is the second last digit = "+(a/10)%10);
         o.close();
         
+        
     }
 }

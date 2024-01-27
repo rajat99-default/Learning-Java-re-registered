@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// import java.util.Scannner;
 public class compare {
     public static void main(String[] args) {
         int a, b;
