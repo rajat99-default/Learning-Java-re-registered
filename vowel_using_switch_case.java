@@ -22,6 +22,8 @@ public class vowel_using_switch_case {
             case 'u':
             System.out.println("vowel");
             break;
+            default:
+            System.out.println("not a vowel");
         }
         scanner.close();
     }
