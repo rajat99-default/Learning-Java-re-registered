@@ -10,9 +10,15 @@ public class sum_of_digit {
         Scanner o = new Scanner(System.in);
         a = o.nextInt();
         while (a > 0) {
-            b = a % 10;
-            sum += b;
-            a /= 10;
+            if(a%2!=0)
+            {
+
+                b = a % 10;
+                sum += b;
+                a /= 10;
+            }
+            
+            
         }
         System.out.println(sum);
         o.close();
